@@ -45,7 +45,7 @@ public class Questao2 {
     }
 
     public static void main(String[] args) {
-        String text = "Estágio - Ribeirão Preto";
+        String text = "Coca Cola";
         text = Normalizer.normalize(text, Normalizer.Form.NFD);
         AboutText aboutText = Questao2.checkLetterA(text);
         System.out.println("Na frase:\n" + text);
