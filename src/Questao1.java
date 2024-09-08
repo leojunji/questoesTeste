@@ -26,7 +26,7 @@ public class Questao1 {
 
     public static void main(String[] args) {
         int numeroInformado = 5;
-        System.out.println(numeroInformado + " tem na Sequencia? " + Questao1.hasInFibo(numeroInformado));
+        System.out.println(numeroInformado + " tem na sequencia? " + Questao1.hasInFibo(numeroInformado));
     }
 
 }
